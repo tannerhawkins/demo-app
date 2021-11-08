@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import {
   addToList,
-  resetList,
   selectList,
 } from './shoppingSlice';
 import styles from './Shopping.module.css';
