@@ -13,13 +13,10 @@ export const shoppingSlice = createSlice({
     addToList: (state, action) => {
       state.list = [...state.list, action.payload];
     },
-    resetList: (state) => {
-      state.list = [];
-    }
   },
 });
 
-export const { addToList, resetList } = shoppingSlice.actions;
+export const { addToList } = shoppingSlice.actions;
 
 export const selectList = (state) => state.shopping.list
 

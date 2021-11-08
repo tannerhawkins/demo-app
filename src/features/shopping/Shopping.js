@@ -36,18 +36,6 @@ export function Shopping() {
         >
           Add Item
         </button>
-        <button
-          className={styles.button}
-          onClick={() => dispatch(resetList())}
-        >
-          Reset List
-        </button>
-        {/* <button
-          className={styles.asyncButton}
-          onClick={() => dispatch(incrementAsync(incrementValue))}
-        >
-          Add Async
-        </button> */}
       </div>
     </div>
   );
